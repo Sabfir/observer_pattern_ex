@@ -3,7 +3,7 @@ package com.opinta;
 public class App {
 
     public static void main( String[] args ) {
-        System.out.println( "Hello World!" );
+        System.out.println("Observer Pattern Example!");
 
         Observer observer = new ObserverEmptyImpl() {
             @Override
